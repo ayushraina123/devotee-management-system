@@ -17,7 +17,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/api/job")
 @RequiredArgsConstructor
 public class BatchJobController {
-
     private final JobLauncher jobLauncher;
     private final JobRegistry jobRegistry;
 
