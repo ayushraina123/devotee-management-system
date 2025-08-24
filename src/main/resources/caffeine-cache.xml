@@ -1,0 +1,12 @@
+<jcache:config
+        xmlns:jcache="http://www.jsr107.org/xmlns/jcache"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.jsr107.org/xmlns/jcache
+                        http://www.jsr107.org/xmlns/jcache/jcache-1_0.xsd">
+
+    <jcache:cache alias="default">
+        <jcache:expiry-policy type="accessed" duration="10" time-unit="minutes"/>
+        <jcache:heap unit="entries" value="10000"/>
+    </jcache:cache>
+
+</jcache:config>

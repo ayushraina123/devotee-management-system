@@ -1,0 +1,16 @@
+# Build output
+target/
+*.class
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS junk
+.DS_Store
+
+# Sensitive configs
+src/main/resources/application.properties
+src/main/resources/application.yml
